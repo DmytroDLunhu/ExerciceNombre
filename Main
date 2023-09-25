@@ -1,0 +1,30 @@
+public class Main {
+
+    public static void main(String[] ergs) {
+
+// On fait l'itération classique de 1 à 100
+
+        for (int i = 1; i <= 100; i++) {
+// On check si nombre "i" est un multiple de 3 et de 5
+            if (i % 3 == 0 && i % 5 == 0) {
+                System.out.println("chat perché");
+            }
+
+// On check si le nombre "i" est un multiple de 3
+
+            else if (i % 3 == 0) {
+                System.out.println("chat");
+            }
+// On check si le nombre "i" est un multiple de 5
+
+            else if (i % 3 == 0) {
+                System.out.println("perché");
+
+            }
+            //       On check les autres conditions sinon on affiche le nombre "i".
+            else {
+                System.out.println(i);
+            }
+        }
+    }
+}
