@@ -17,7 +17,7 @@ public class Main {
             }
 // On check si le nombre "i" est un multiple de 5
 
-            else if (i % 3 == 0) {
+            else if (i % 5 == 0) {
                 System.out.println("perché");
 
             }
